@@ -1,21 +1,12 @@
 # ExercismCliEx
 
-**TODO: Add description**
+This is the start of some Elixir based CLI tools for managing students.
 
-## Installation
+It's based off of https://github.com/IsaacG/python-projects/blob/4228011608e6bc5dba630d6629fb2a69166b4ab4/exercism.org/exercism.py#L97
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exercism_cli_ex` to your list of dependencies in `mix.exs`:
+However I don't currently have a working Python 3 setup so have decided to implement in Elixir.
 
-```elixir
-def deps do
-  [
-    {:exercism_cli_ex, "~> 0.1.0"}
-  ]
-end
-```
+`iex -S mix` is the current CLI until I need to make it more sophisticated.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/exercism_cli_ex>.
+
 
