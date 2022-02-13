@@ -30,7 +30,7 @@ defmodule ExercismCliEx do
 
     How is this exercise going? Are you planning on making more changes?
 
-    If you are ready to move on, you can free up the mentoring slot by clicking
+    If you are ready to move on, you can free up your mentoring slot for Elixir (you have upto 4 per track) by clicking
     "End discussion".
 
     If you are still working on this, that is great, too!
