@@ -12,6 +12,19 @@ defmodule ExercismCliEx do
       []
 
   """
+
+  def get_token() do
+    {body, _} = System.cmd("exercism", ["configure"], stderr_to_stdout: true)
+
+    # This is a dirty, but working version of extracting the token
+    body
+    |> String.split("\n")
+    |> Enum.at(4)
+    |> String.split(")")
+    |> Enum.at(1)
+    |> String.trim()
+  end
+
   def fetch(token, page \\ 1) do
     %HTTPoison.Response{body: body, status_code: 200} =
       HTTPoison.get!(
